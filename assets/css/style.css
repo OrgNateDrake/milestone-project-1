@@ -2,10 +2,43 @@
 
 /*-----------------------------------------------Colors------------------------*/
 
-/* Main: #22afb0 Secondary: #36d7d8 & #fafafa */
+/* (Main: #22afb0) (Secondary: #36d7d8) & #fafafa */
 
-header {
+/*-----------------------------------------------Colors------------------------*/
+
+/*-----------------------------------------------Header------------------------*/
+
+#logo {
     font-family: "Montserrat", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
     color: #22afb0;
+}
+
+#menu {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #22afb0;
+}
+
+/*-----------------------------------------------Callout--------------------------*/
+
+.callout-container {
+    height: 100vh;
+
+    background-image: url('/assets/images/familyandpet.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
