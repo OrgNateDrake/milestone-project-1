@@ -15,26 +15,33 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand">
-            <div class="container">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
                 <a class="navbar-brand" id="logo" href="index.html">
-                    <img src="assets/images/logo.jpg" alt="logo" width="150" height="150" class="d-inline-block align-text-center">
-                    Family Pet Photography
+                <img src="assets/images/logo.jpg" alt="logo" width="100" height="100" class="d-inline-block align-text-start">
+                Family Pet Photography
                 </a>
-                <ul class="nav justify-content-end flex-row-reverse">
+                <ul id="menu" class="nav flex-row-reverse">
                     <li class="navbar-item">
-                        <a id="menu" class="nav-link" href="contact-me.html">Contact Me</a>
+                        <a id="menu-item" class="nav-link" href="contact-me.html">Contact Me</a>
+                        </li>
+                        <li class="navbar-item">
+                        <a id="menu-item" class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="navbar-item">
+                        <a id="menu-item" class="nav-link active" href="index.html" aria-current="page">Home</a>
                     </li>
-                    <li class="navbar-item">
-                        <a id="menu" class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="navbar-item">
-                    <a id="menu" class="nav-link active" href="index.html">Home</a>
-                    </li>
-                </ul>
+                </ul>    
             </div>
         </nav>
     </header>
+
+    <section id="family-outer">
+        <div class="container-fluid callout-container">
+        </div>
+    </section>
+
+
     <section>
         Main Image here
     </section>
