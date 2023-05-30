@@ -8,37 +8,193 @@
 
 /*-----------------------------------------------Header------------------------*/
 
+.navbar {
+    width: 100%;
+}
+
 #logo {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    font-size: 40px;
+    font-size: 30px;
+    padding-left: 15px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
     color: #22afb0;
+
 }
 
 #menu {
+    padding-right: 15px;
+}
+
+#menu-item {
     font-family: "Montserrat", sans-serif;
     font-weight: 100;
     font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
     color: #22afb0;
+
 }
 
 /*-----------------------------------------------Callout--------------------------*/
 
 .callout-container {
-    height: 100vh;
+    height: 70vh;
 
-    background-image: url('/assets/images/familyandpet.jpg') no-repeat center center fixed;
+    background: url('../images/family-and-pets.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+   
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+
+    animation-name: family-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes family-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
+
+#family-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.callout-container {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 0 0 1px black;
+    color: #fff;
+}
+ 
+.callout-container p {
+    font-size: 20px;
+}
+
+#button-main {
+    padding-top: 20px;
+}
+
+#button-main button {
+    font-size: 25px;
+    color: #fff;
+    border-color: #22afb0;
+    text-shadow: 0 0 1px black;
+
+}
+
+#button-main button:hover {
+    background-color: #22afb0;
+    border-color: #22afb0;
+    color: white;
+    text-shadow: none;
+}
+
+/*-----------------------------------------------Modal Form--------------------------*/
+
+#moreInfoModalLabel {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    color: #22afb0;
+}
+
+.modal-label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: larger;
+    color: #22afb0;
+}
+
+#modal-button {
+    border-color: #22afb0;
+
+}
+
+#modal-button:hover {
+    background-color: #22afb0;
+    border-color: #22afb0;
+    color: #fff;
+    text-shadow: none;
+}
+
+#modal-btn-container {
+    text-align: center;
+}
+
+/*-----------------------------------------------Feedback--------------------------*/
+
+.feedback-container {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    color: #22afb0;
+}
+
+#feedback-img {
+    border: 2px solid #22afb0;
+    border-radius: 50% 0 50% 0;
+    margin-bottom: 5%;
+}
+
+/*-----------------------------------------------Footer--------------------------*/
+
+#footer-main {
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    color: #fff;
+
+    background-color: #22afb0;
+}
+
+#footer-about-label {
+    padding-top: 20px;
+}
+
+#footer-about {
+    font-weight: 100;
+    font-size: medium;
+}
+
+#footer-copyright {
+    font-weight: 100;
+    font-size: small;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7.5px;
+    text-align: center;
+    color: #22afb0;
+    background: #fff;
+    transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #36d7d8;
 }
