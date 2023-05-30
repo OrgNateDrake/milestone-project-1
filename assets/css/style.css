@@ -10,6 +10,7 @@
 
 .navbar {
     width: 100%;
+    padding-bottom: 15px;
 }
 
 #logo {
@@ -41,13 +42,15 @@
 /*-----------------------------------------------Callout--------------------------*/
 
 .callout-container {
-    height: 70vh;
+    height: 80vh;
+    max-height: 600px;
 
     background: url('../images/family-and-pets.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    max-width: 100%;
    
     display: flex;
     align-items: center;
@@ -66,13 +69,6 @@
     to {
         transform: scale(1.05);
     }
-}
-
-#family-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
 }
 
 .callout-container {
@@ -144,14 +140,14 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 100;
     color: #22afb0;
+    margin-bottom: 10px;
 }
 
 #feedback-img {
     border: 2px solid #22afb0;
     border-radius: 50% 0 50% 0;
-    margin-bottom: 5%;
+    padding: 0;
 }
-
 /*-----------------------------------------------Footer--------------------------*/
 
 #footer-main {
