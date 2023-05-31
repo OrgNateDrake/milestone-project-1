@@ -9,34 +9,30 @@
 /*-----------------------------------------------Header------------------------*/
 
 .navbar {
-    width: 100%;
-    padding-bottom: 15px;
+    max-width: 100%;
 }
 
-#logo {
+.logo {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     font-size: 30px;
-    padding-left: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
     color: #22afb0;
-
 }
 
-#menu {
-    padding-right: 15px;
-}
-
-#menu-item {
+.menu {
     font-family: "Montserrat", sans-serif;
     font-weight: 100;
     font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
     color: #22afb0;
+}
 
+.menu:hover {
+    color: #36d7d8;
 }
 
 /*-----------------------------------------------Callout--------------------------*/
@@ -44,13 +40,13 @@
 .callout-container {
     height: 80vh;
     max-height: 600px;
+    max-width: 100%;
 
     background: url('../images/family-and-pets.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    max-width: 100%;
    
     display: flex;
     align-items: center;
@@ -102,6 +98,46 @@
     text-shadow: none;
 }
 
+/*-----------------------------------------------Contact Page--------------------------*/
+
+.contact-container {
+    height: 80vh;
+    max-height: 800px;
+    max-width: 100%;
+
+    background: url('../images/contact-us-img.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    animation-name: dog-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes dog-zoom {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.05);
+        }
+}
+
+.contact-container {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 0 0 1px black;
+    color: #fff;
+}
+
 /*-----------------------------------------------Modal Form--------------------------*/
 
 #moreInfoModalLabel {
@@ -140,27 +176,25 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 100;
     color: #22afb0;
-    margin-bottom: 10px;
+    max-width: 100%;
 }
 
 #feedback-img {
     border: 2px solid #22afb0;
     border-radius: 50% 0 50% 0;
-    padding: 0;
 }
 /*-----------------------------------------------Footer--------------------------*/
 
 #footer-main {
-    width: 100%;
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     color: #fff;
-
     background-color: #22afb0;
 }
 
 #footer-about-label {
     padding-top: 20px;
+    padding-left: 20px;
 }
 
 #footer-about {
@@ -178,7 +212,7 @@
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding: 12px 0;
+    padding-top: 20px;
     border-radius: 50%;
     font-size: 15px;
     line-height: 7.5px;
