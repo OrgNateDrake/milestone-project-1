@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-        <nav class="container navbar mb-2" role="navigation">
+        <nav class="container navbar mb-2">
             <a class="navbar justify-content-center logo m-2" href="index.html">
             <img src="assets/images/logo.jpg" alt="logo" width="100" height="100" class="mx-auto">
             Family Pet Photography
@@ -34,21 +34,21 @@
         </nav>
     </header>
 
-    <section class="container overflow-hidden">
+    <div class="container overflow-hidden">
         <div class="callout-container">
             <div class="row">
                 <div class="col-12">
                     <section>
-                        <h1><strong>Looking for a passionate pet photographer?</strong></h1>
+                        <h2><strong>Looking for a passionate pet photographer?</strong></h2>
                         <p><strong>Click for more information!</strong></p>
                         <div id="button-main">
-                        <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#moreInfoModal">20% OFF IN JUNE!</button>
+                        <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#moreInfoModal" aria-label="Click button to contact me and receive 20% off my services in June">20% OFF IN JUNE!</button>
                         </div>
                     </section>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <article class="container">
         <div class="text-center mb-5 feedback-container">
@@ -87,39 +87,39 @@
         </div>
     </article>
 
-    <!-----------------------------------------------------------------------------------Modal-->
+<!--Modal-->
 
-    <div class="modal fade" id="moreInfoModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="moreInfoModalLabel">Contact Me</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label class="modal-label" for="formGroupExampleInput" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" required>
-                        </div>
-                        <div class="mb-3">
-                            <label class="modal-label" for="formGroupExampleInput2" class="form-label">Email</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" required>
-                        </div>
-                        <div class="mb-3">
-                            <label class="modal-label" for="exampleFormControlTextarea1" class="form-label">How can I help you?</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
-                          </div>
-                        <div id="modal-btn-container">
-                        <button id="modal-button" type="submit" class="btn btn-outline-secondary">Submit</button>
-                        </div>
-                      </form>
-                </div>
+<div class="modal fade" id="moreInfoModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="moreInfoModalLabel">Contact Me</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="nameInput" class="modal-label form-label">Name</label>
+                        <input type="text" class="form-control" id="nameInput" aria-labelledby="nameInput" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="emailInput" class="modal-label form-label">Email</label>
+                        <input type="text" class="form-control" id="emailInput" aria-labelledby="emailInput" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="requestTextInput" class="modal-label form-label">How can I help you?</label>
+                        <textarea class="form-control" id="requestTextInput" rows="3" aria-labelledby="requestTextInput" required></textarea>
+                      </div>
+                    <div id="modal-btn-container">
+                    <button id="modal-button" type="submit" class="btn btn-outline-secondary">Submit</button>
+                    </div>
+                  </form>
             </div>
         </div>
     </div>
+</div>
 
-<!--------------------------------------------------------------------------------Modal-->
+<!--Modal-->
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>

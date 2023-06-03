@@ -15,37 +15,135 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand">
-            <div class="container">
-                <a class="navbar-brand" id="logo" href="index.html">
-                    <img src="assets/images/logo.jpg" alt="logo" width="150" height="150" class="d-inline-block align-text-center">
-                    Family Pet Photography
-                </a>
-                <ul class="nav justify-content-end flex-row-reverse">
-                    <li class="navbar-item">
-                        <a id="menu" class="nav-link active" href="contact-me.html">Contact Me</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a id="menu" class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="navbar-item">
-                    <a id="menu" class="nav-link" href="index.html">Home</a>
-                    </li>
-                </ul>
-            </div>
+        <nav class="container navbar mb-2">
+            <a class="navbar justify-content-center logo m-2" href="index.html">
+            <img src="assets/images/logo.jpg" alt="logo" width="100" height="100" class="mx-auto">
+            Family Pet Photography
+            </a>
+            <ul class="nav justify-content-center m-2">
+                <li class="nav-item">
+                <a class="nav-link menu" href="index.html"><i class="fa-regular fa-house"></i> Home</a>
+                </li>
+                <li class="navbar-item">
+                <a class="nav-link menu" href="gallery.html"><i class="fa-regular fa-image"></i> Gallery</a>
+                </li>
+                <li class="navbar-item">
+                <a class="nav-link active menu" href="contact-me.html" aria-current="page"><i class="fa-regular fa-envelope"></i> Contact Me</a>
+                </li>
+            </ul>
         </nav>
     </header>
-    <section>
-        Main Image here
-    </section>
-    <section>
-        Quotes
-    </section>
-    <section>
-        Features
-    </section>
-    <footer>
-        About, copyright and socials
-    </footer>
+
+    <div class="container g-0 overflow-hidden">
+        <div class="contact-container">
+            <div class="row">
+                <div class="col-12">
+                    <section>
+                        <h2>Click to contact me!</h2>
+                        <div id="button-main">
+                        <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#moreInfoModal" aria-label="Click button to contact me and receive 20% off my services in June">Contact Me!</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+                
+
+<!--Modal-->
+
+<div class="modal fade" id="moreInfoModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="moreInfoModalLabel">Contact Me</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="nameInput" class="modal-label form-label">Name</label>
+                        <input type="text" class="form-control" id="nameInput" aria-labelledby="nameInput" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="emailInput" class="modal-label form-label">Email</label>
+                        <input type="text" class="form-control" id="emailInput" aria-labelledby="emailInput" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="requestTextInput" class="modal-label form-label">How can I help you?</label>
+                        <textarea class="form-control" id="requestTextInput" rows="3" aria-labelledby="requestTextInput" required></textarea>
+                      </div>
+                    <div id="modal-btn-container">
+                    <button id="modal-button" type="submit" class="btn btn-outline-secondary">Submit</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Modal-->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    
+<footer class="container" id="footer-main">
+    <div id="footer-about-label" class="row">
+        <div class="col-sm-6 mt-3">
+            <h5 class="uppercase general-sub">About Me</h5>
+            <p id="footer-about" class="inline-block">
+            I'm a passionate photographer, with over 12 years experience. 
+            I have featured in several magazines, and won the 2019, 2020 and 2021 'Pet Photographer of the Year' award. 
+            </p>
+        </div>
+        <div class="col-sm-6 mt-3">
+            <h5 class="uppercase general-sub">Social</h5>
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.facebook.com">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.twitter.com">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.linkedin.com">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <span class="sr-only">LinkedIn</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.pinterest.com">
+                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                    <span class="sr-only">Pinterest</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.instagram.com">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.youtube.com">
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                    <span class="sr-only">YouTube</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="footer-copyright">
+            <p>
+            Images and Text ©2023 - All Rights Reserved. 
+            Content may not be used without prior express written consent.
+            </p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
