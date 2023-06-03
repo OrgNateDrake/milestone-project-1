@@ -15,43 +15,41 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm mb-2" role="navigation">
-            <div class="container-fluid">
-                <a class="logo flex-shrink-0 m-3" href="index.html">
-                <img src="assets/images/logo.jpg" alt="logo" width="100" height="100" class="d-inline-block align-text-center">
-                Family Pet Photography
-                </a>
-                <ul class="nav flex-row-reverse me-3">
-                    <li class="nav-item">
-                    <a class="nav-link menu" href="contact-me.html"><i class="fa-regular fa-envelope"></i> Contact Me</a>
-                    </li>
-                    <li class="navbar-item">
-                    <a class="nav-link active menu" href="gallery.html" aria-current="page"><i class="fa-regular fa-image"></i> Gallery</a>
-                    </li>
-                    <li class="navbar-item">
-                    <a class="nav-link menu" href="index.html"><i class="fa-regular fa-house"></i> Home</a>
-                    </li>
-                </ul>
-            </div>
+        <nav class="container navbar mb-2" role="navigation">
+            <a class="navbar justify-content-center logo m-2" href="index.html">
+            <img src="assets/images/logo.jpg" alt="logo" width="100" height="100" class="mx-auto">
+            Family Pet Photography
+            </a>
+            <ul class="nav justify-content-center m-2">
+                <li class="nav-item">
+                <a class="nav-link menu" href="index.html"><i class="fa-regular fa-house"></i> Home</a>
+                </li>
+                <li class="navbar-item">
+                <a class="nav-link active menu" href="gallery.html" aria-current="page"><i class="fa-regular fa-image"></i> Gallery</a>
+                </li>
+                <li class="navbar-item">
+                <a class="nav-link menu" href="contact-me.html"><i class="fa-regular fa-envelope"></i> Contact Me</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
-    <section>
-        <div class="container gallery-container">
-            <div class="row justify-content-start m-3">
+    <section class="container gallery-container">
+            <div class="row justify-content-start mb-3">
                 <div class="col-12">
                     <h2>Portfolio</h2>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="container justify-content-center mb-3">
+            <div class="row">
                 <div class="col-8 g-0">
-                <img src="/assets/images/image1.jpg" alt="Puppy and kitten sleeping" aria-label="Image of a puppy and a kitten sleeping" class="img-fluid lg-img">
+                <img id="lg-img-t-c" src="/assets/images/image1.jpg" alt="Puppy and kitten sleeping" aria-label="Image of a puppy and a kitten sleeping" class="img-fluid">
                 </div>
                 <div class="col-4 g-0">
                     <img src="/assets/images/image2.jpg" alt="Family and their dog" aria-label="Image of a family and their dog" class="img-fluid sm-img">
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row">
                 <div class="col-4 g-0">
                     <img id="middle-sm-img" src="/assets/images/image3.jpg" alt="A baby and a dog" aria-label="Image of a baby and a dog" class="img-fluid">
                 </div>
@@ -59,21 +57,21 @@
                     <img id="middle-lg-img" src="/assets/images/image4.jpg" alt="Family and their dog on porch" aria-label="Image of a family and their dog on porch" class="img-fluid">
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row">
                 <div class="col-8 g-0">
                 <img src="/assets/images/image5.jpg" alt="Cat and dog in field" aria-label="Image of a cat and dog in field" class="img-fluid lg-img">
                 </div>
                 <div class="col-4 g-0">
-                    <img src="/assets/images/image6.jpg" alt="Dog sitting on a tree stump" aria-label="Image of a dog sitting on a tree stump" class="img-fluid sm-img">
+                    <img id="sm-img-b-c" src="/assets/images/image6.jpg" alt="Dog sitting on a tree stump" aria-label="Image of a dog sitting on a tree stump" class="img-fluid">
                 </div>
             </div>
-        </div>
+            </div>
     </section>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
     
-    <footer id="footer-main" class="container-fluid">
+    <footer id="footer-main" class="container">
         <div id="footer-about-label" class="row">
             <div class="col-sm-6 mt-3">
                 <h5 class="uppercase general-sub">About Me</h5>
