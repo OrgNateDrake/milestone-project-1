@@ -1,39 +1,47 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Family Pet Photography
 
-Welcome,
+[https://orgnatedrake.github.io/milestone-project-1/] (www.orgnatedrake.github.io/milestone-project-1)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is the README file for a three-page website, for a family pet photography business. The website consists of three main pages: Home, Gallery, and Contact Me.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Table of Contents
 
-## Codeanywhere Reminders
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Introduction
 
-`python3 -m http.server`
+Family Pet Photography is a website dedicated to capturing precious moments of families and their beloved pets. A professional photographer specialises in creating beautiful and memorable images that reflect the unique bond between humans and their furry friends. With their expertise and passion for animals, they aim to provide stunning photographs that families will cherish for a lifetime.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- Home: A welcoming introduction to the website, providing a callout offer and feedback from past client’s.
+- Gallery: A collection of stunning pet photographs to showcase the photographer's skills and offer inspiration to potential clients.
+- Contact Me: A contact form modal.
 
-`http_server`
+## Getting Started
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+To get a copy of this project up and running on your local machine, follow these steps.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Prerequisites
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Web browser (Chrome, Firefox, Safari, etc.)
+- Text editor or IDE (Visual Studio Code, Sublime Text, Atom, etc.)
 
-To log into the Heroku toolbelt CLI:
+### Installation
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+1. Clone the repository:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+```SVN
+git clone [https://github.com/OrgNateDrake/milestone-project-1.git] (www.github.com/OrgNateDrake/milestone-project-1.git)
 
----
+2. Open the project in your preferred text editor or IDE.
 
-Happy coding!
+## Usage
+
+1. Open the index.html file in your web browser to view the home page.
+2. Navigate to the gallery.html file to explore the pet photography gallery.
+3. For inquiries or to contact the photographer, visit the contact.html page.
