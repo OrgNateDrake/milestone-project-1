@@ -14,18 +14,21 @@ This is the README file for a three-page website, for a family pet photography b
   - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Design Choices](#design-choices)
-    - [HEX Colors](#HEX-colors)
+  - [HEX Colors](#HEX-colors)
 - [User Stories](#user-stories)
   - [Current Pet Owners](#current-pet-owners)
   - [New Pet Owners](#new-pet-owners)
 - [Wireframes](#wireframes)
-    - [Large Screen Homepage](#large-screen-homepage)
-    - [Large Screen Gallery](#large-screen-gallery)
-    - [Large Screen Contact Me](#large-screen-contact-me)
-    - [Mobile Homepage](#mobile-homepage)
-    - [Mobile Gallery](#mobile-gallery)
-    - [Mobile Contact Me](#mobile-contact-me)
-    - [Modal](#modal)
+  - [Large Screen Homepage](#large-screen-homepage)
+  - [Large Screen Gallery](#large-screen-gallery)
+  - [Large Screen Contact Me](#large-screen-contact-me)
+  - [Mobile Homepage](#mobile-homepage)
+  - [Mobile Gallery](#mobile-gallery)
+  - [Mobile Contact Me](#mobile-contact-me)
+  - [Modal](#modal)
+- [Testing](#testing)
+  - [W3C](#w3c)
+- [Bugs](#bugs)
 - [Contributing](#contributing)
 
 ## Introduction
@@ -148,7 +151,7 @@ These user stories capture the expectations and desires of both current pet owne
 
 ### Mobile Gallery
 
-![Mobile Gallery](Wireframes/Wireframe-gallery-Mobile.jpeg)
+![Mobile Gallery](Wireframes/Wireframe-Gallery-Mobile.jpeg)
 
 ### Mobile Contact Me
 
@@ -157,6 +160,20 @@ These user stories capture the expectations and desires of both current pet owne
 ### Modal
 
 ![Modal](Wireframes/Wireframe-Modal.jpeg)
+
+## Testing
+
+### W3C
+
+I have fully tested all three **HTML** pages and the one **CSS** stylesheet within W3C's validators. No fails found and all warnings were fully resolved and have now **passed all checks**.
+
+## Bugs
+
+I found there were issues with **Gallery** images not showing through 'GitHub Pages' and also one **Wireframe** image was not showing within this *README* file.
+
+1. **Gallery** images paths/spelling were checked, and I found I needed to slightly amended the file paths, removing './' and making them relative. All images are now showing as designed.
+
+2. One **Wireframe** image had one typo, a lowercase letter instead of uppercase. This was corrected and now the image is showing correctly with this *README* file.
 
 ## Contributing
 
