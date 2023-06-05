@@ -14,9 +14,18 @@ This is the README file for a three-page website, for a family pet photography b
   - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Design Choices](#design-choices)
+    - [HEX Colors](#HEX-colors)
 - [User Stories](#user-stories)
   - [Current Pet Owners](#current-pet-owners)
   - [New Pet Owners](#new-pet-owners)
+- [Wireframes](#wireframes)
+    - [Large Screen Homepage](#large-screen-homepage)
+    - [Large Screen Gallery](#large-screen-gallery)
+    - [Large Screen Contact Me](#large-screen-contact-me)
+    - [Mobile Homepage](#mobile-homepage)
+    - [Mobile Gallery](#mobile-gallery)
+    - [Mobile Contact Me](#mobile-contact-me)
+    - [Modal](#modal)
 - [Contributing](#contributing)
 
 ## Introduction
@@ -94,6 +103,11 @@ The folder structure for this project is as follows:
 
 8. **Call-to-Action Buttons:** Use strategically placed call-to-action buttons throughout the website to guide family pet owners towards important actions, such as contacting the photographer and new or reoccurring offers. Make these buttons visually distinct and inviting, encouraging visitors to take the desired actions.
 
+### Hex Colors
+
+**Main:** #22afb0 *Light Marine Blue*
+**Secondary:** #36d7d8 *Dark Marine Blue*
+
 ## User Stories
 
 ### Current Pet Owners
@@ -113,6 +127,37 @@ The folder structure for this project is as follows:
 5. As a new pet owner, I want a user-friendly contact form or contact details readily available, so I can inquire about the services, ask questions, and schedule a photo session for my new pet.
 
 These user stories capture the expectations and desires of both current pet owners and new pet owners, emphasising the importance of showcasing the photographer's work, providing clear information about promotions, and offering a seamless and convenient way to contact the photographer.
+
+## Wireframes
+
+### Large Screen Homepage
+
+![Large Screen Homepage](Wireframes/Wireframe-Home-Large.jpeg)
+
+### Large Screen Gallery
+
+![Large Screen Gallery](Wireframes/Wireframe-Gallery-Large.jpeg)
+
+### Large Screen Contact Me
+
+![Large Screen Contact Me](Wireframes/Wireframe-Contact-Large.jpeg)
+
+### Mobile Homepage
+
+![Mobile Homepage](Wireframes/Wireframe-Homepage-Mobile.jpeg)
+
+### Mobile Gallery
+
+![Mobile Gallery](Wireframes/Wireframe-gallery-Mobile.jpeg)
+
+### Mobile Contact Me
+
+![Mobile Contact Me](Wireframes/Wireframe-Contact-Mobile.jpeg)
+
+### Modal
+
+![Modal](Wireframes/Wireframe-Modal.jpeg)
+
 ## Contributing
 
 I welcome contributions from everyone interested in improving this project. Feel free to open issues and submit pull requests to suggest changes, report bugs, or add new features.
