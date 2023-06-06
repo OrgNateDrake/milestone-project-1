@@ -31,13 +31,14 @@ This is the README file for a three-page website, for a family pet photography b
   - [Modal](#modal)
 - [Testing](#testing)
   - [W3C](#w3c)
+  - [JSLint](#jslint)
   - [Accessibility](#accessibility)
   - [User Stories Tested](#user-stories-tested)
     - [Current Pet Owners](#current-pet-owners)
     - [New Pet Owners](#new-pet-owners)
 - [Bugs](#bugs)
 - [Attribution](#attribution)
-- [Contributing](#contributing)
+- [Contributing and Maintenance](#contributing-and-maintenance)
 
 ## Introduction
 
@@ -86,25 +87,32 @@ You can view the live site through **GitHub Pages**, using the following link; [
 
 The folder structure for this project is as follows:
 
-.
-├── assets/
-├── -css/
-├── --style.css
-├── -images/
-├── --contact-us-img.jpg
-├── --family-and-pets.jpg
-├── --favicon.jpg
-├── --feedback-imgage.jpg
-├── --image1.jpg
-├── --image2.jpg
-├── --image3.jpg
-├── --image4.jpg
-├── --image5.jpg
-├── --image6.jpg
-├── --logo.jpg
-├── contact-me.html
-├── gallery.html
-└── home.html
+assets
+ ┣ css
+ ┃ ┗ style.css
+ ┗ images
+ ┃ ┣ Feedback-image.jpg
+ ┃ ┣ contact-us-img.jpg
+ ┃ ┣ family-and-pets.jpg
+ ┃ ┣ favicon.jpg
+ ┃ ┣ image1.jpg
+ ┃ ┣ image2.jpg
+ ┃ ┣ image3.jpg
+ ┃ ┣ image4.jpg
+ ┃ ┣ image5.jpg
+ ┃ ┣ image6.jpg
+ ┃ ┗ logo.jpg
+docs
+ ┗ PageSpeed-insight.png
+Wireframes
+ ┣ Wireframe-Contact-Large.jpeg
+ ┣ Wireframe-Contact-Mobile.jpeg
+ ┣ Wireframe-Gallery-Large.jpeg
+ ┣ Wireframe-Gallery-Mobile.jpeg
+ ┣ Wireframe-Home-Large.jpeg
+ ┣ Wireframe-Homepage-Mobile.jpeg
+ ┗ Wireframe-Modal.jpeg
+
 
 ## User Experience UX
 
@@ -189,8 +197,13 @@ These user stories capture the expectations and desires of both current pet owne
 
 I have fully tested all three **HTML** pages and the one **CSS** stylesheet within W3C's validators. No fails found and all warnings were fully resolved and have now **passed all checks**.
 
-### Accessibility
+### JSLint
 
+I have fully tested all three **HTML** pages and the one **CSS** stylesheet within JSLint's validators. **passed all checks**.
+
+### Accessibility and Performance
+
+![PageSpeed Insight](docs/PageSpeed-insight.png)
 
 ### User Stories Tested
 
@@ -282,8 +295,10 @@ Apart from what has been attributed below. All code within this project was prog
 
 **Lucid** was used to create the wireframes. [https://www.lucidchart.com]
 
-## Contributing
+## Contributing and Maintenance
 
 I welcome contributions from anyone interested in improving this project. Feel free to open issues and submit pull requests to suggest changes, report bugs, or add new features.
+
+Maintenance will be completed regularly, to update code and external links where necessary.
 
 
