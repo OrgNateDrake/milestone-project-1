@@ -205,6 +205,8 @@ I have fully tested all three **HTML** pages and the one **CSS** stylesheet with
 
 ![PageSpeed Insight](docs/PageSpeed-insight.png)
 
+[https://pagespeed.web.dev]
+
 ### User Stories Tested
 
 #### Current Pet Owners
@@ -254,6 +256,7 @@ I have fully tested all three **HTML** pages and the one **CSS** stylesheet with
   *Response:* Contacting the photographer is a breeze! The user-friendly contact form and readily available contact details make it easy for me to inquire about the services, ask questions, and schedule a photo session for my new pet. It's reassuring to have such convenient options.
 
   **These responses reflect the positive experiences and impressions of new pet owners who have visited the website. They highlight the excitement of discovering a reliable pet photographer, the inspiration drawn from the gallery, the ease of finding information about packages and pricing, the confidence gained from the photographer's background and testimonials, and the convenience of contacting the photographer.**
+
 ## Bugs
 
 I found there were issues with **Gallery** images not showing through 'GitHub Pages' and also one **Wireframe** image was not showing within this *README* file.
