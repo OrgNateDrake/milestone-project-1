@@ -4,6 +4,10 @@
 
 This is the README file for a three-page website, for a family pet photography business. The website consists of three main pages: Home, Gallery, and Contact Me.
 
+![I Am Responsive](docs/iamresponsive.png)
+
+[https://ui.dev/amiresponsive?url=https://orgnatedrake.github.io/milestone-project-1/]
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -190,7 +194,6 @@ These user stories capture the expectations and desires of both current pet owne
 ### Modal
 
 ![Modal](wireframes/wireframe-modal.jpeg)
-
 ## Testing
 
 ### W3C
