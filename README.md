@@ -165,31 +165,31 @@ These user stories capture the expectations and desires of both current pet owne
 
 ### Large Screen Homepage
 
-![Large Screen Homepage](Wireframes/Wireframe-Home-Large.jpeg)
+![Large Screen Homepage](wireframes/wireframe-home-large.jpeg)
 
 ### Large Screen Gallery
 
-![Large Screen Gallery](Wireframes/Wireframe-Gallery-Large.jpeg)
+![Large Screen Gallery](wireframes/wireframe-gallery-large.jpeg)
 
 ### Large Screen Contact Me
 
-![Large Screen Contact Me](Wireframes/Wireframe-Contact-Large.jpeg)
+![Large Screen Contact Me](wireframes/wireframe-contact-large.jpeg)
 
 ### Mobile Homepage
 
-![Mobile Homepage](Wireframes/Wireframe-Homepage-Mobile.jpeg)
+![Mobile Homepage](wireframes/wireframe-homepage-mobile.jpeg)
 
 ### Mobile Gallery
 
-![Mobile Gallery](Wireframes/Wireframe-Gallery-Mobile.jpeg)
+![Mobile Gallery](wireframes/wireframe-gallery-mobile.jpeg)
 
 ### Mobile Contact Me
 
-![Mobile Contact Me](Wireframes/Wireframe-Contact-Mobile.jpeg)
+![Mobile Contact Me](wireframes/wireframe-contact-mobile.jpeg)
 
 ### Modal
 
-![Modal](Wireframes/Wireframe-Modal.jpeg)
+![Modal](wireframes/wireframe-modal.jpeg)
 
 ## Testing
 
@@ -203,7 +203,7 @@ I have fully tested all three **HTML** pages and the one **CSS** stylesheet with
 
 ### Accessibility and Performance
 
-![PageSpeed Insight](docs/PageSpeed-insight.png)
+![PageSpeed Insight](docs/pagespeed-insight.png)
 
 [https://pagespeed.web.dev]
 
@@ -259,11 +259,15 @@ I have fully tested all three **HTML** pages and the one **CSS** stylesheet with
 
 ## Bugs
 
-I found there were issues with **Gallery** images not showing through 'GitHub Pages' and also one **Wireframe** image was not showing within this *README* file.
+1. I found there were issues with **Gallery** images not showing through 'GitHub Pages' and also one **Wireframe** image was not showing within this *README* file.
 
-1. **Gallery** images paths/spelling were checked, and I found I needed to slightly amended the file paths, removing './' and making them relative. All images are now showing as designed.
+  - **Gallery** images paths/spelling were checked, and I found I needed to slightly amended the file paths, removing './' and making them relative. All images are now showing as designed.
 
-2. One **Wireframe** image had one typo, a lowercase letter instead of uppercase. This was corrected and now the image is showing correctly with this *README* file.
+  - One **Wireframe** image had one typo, a lowercase letter instead of uppercase. This was corrected and now the image is showing correctly with this *README* file.
+
+2. Upon final testing - I found issues with the *navbar and tabs* responsiveness across devices.
+
+  - I have added three *@media queries* to resolve the issues, and re-tested across all device sizes.
 
 ## Attribution
 
