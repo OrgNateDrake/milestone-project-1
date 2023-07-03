@@ -18,7 +18,6 @@ This is the README file for a three-page website, for a family pet photography b
   - [Installation](#installation)
   - [Usage](#usage)
   - [Deployment](#deployment)
-- [Folder Structure](#folder-structure)
 - [User Experience UX](#user-experience-ux)
   - [User Stories](#user-stories)
     - [Current Pet Owners](#current-pet-owners)
@@ -87,36 +86,6 @@ git clone [https://github.com/OrgNateDrake/milestone-project-1.git]
 ### Deployment
 
 You can view the live site through **GitHub Pages**, using the following link; [https://orgnatedrake.github.io/milestone-project-1/].
-## Folder Structure
-
-The folder structure for this project is as follows:
-
-assets
- ┣ css
- ┃ ┗ style.css
- ┗ images
- ┃ ┣ Feedback-image.jpg
- ┃ ┣ contact-us-img.jpg
- ┃ ┣ family-and-pets.jpg
- ┃ ┣ favicon.jpg
- ┃ ┣ image1.jpg
- ┃ ┣ image2.jpg
- ┃ ┣ image3.jpg
- ┃ ┣ image4.jpg
- ┃ ┣ image5.jpg
- ┃ ┣ image6.jpg
- ┃ ┗ logo.jpg
-docs
- ┗ PageSpeed-insight.png
-Wireframes
- ┣ Wireframe-Contact-Large.jpeg
- ┣ Wireframe-Contact-Mobile.jpeg
- ┣ Wireframe-Gallery-Large.jpeg
- ┣ Wireframe-Gallery-Mobile.jpeg
- ┣ Wireframe-Home-Large.jpeg
- ┣ Wireframe-Homepage-Mobile.jpeg
- ┗ Wireframe-Modal.jpeg
-
 
 ## User Experience UX
 
