@@ -162,13 +162,13 @@
 
 #modal-button {
     border-color: #146768;
-
+    color: #146768;
 }
 
 #modal-button:hover {
-    background-color: #1F9FA0;
-    border-color: #1F9FA0;
-    color: #fff;
+    background-color: #146768;
+    border-color: #146768;
+    color: #ffffff;
     text-shadow: none;
 }
 
@@ -293,5 +293,5 @@
 }
 
 .social-links li a i:hover {
-    background: #1F9FA0;
+    background: #bcbcbc;
 }
