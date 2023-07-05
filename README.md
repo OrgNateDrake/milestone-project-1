@@ -86,7 +86,7 @@ git clone [https://github.com/OrgNateDrake/milestone-project-1.git]
 
 You can view the live site through **GitHub Pages**, using the following link; 
 
-[https://orgnatedrake.github.io/milestone-project-1/].
+[https://orgnatedrake.github.io/milestone-project-1/]
 
 The project was deployed to GitHub Pages using the following steps...
 
@@ -176,18 +176,32 @@ These user stories capture the expectations and desires of both current pet owne
 ![Modal](wireframes/wireframe-modal.jpeg)
 ## Testing
 
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The website was viewed on a variety of devices such as Desktop, Laptop, Tablets, iPhone 8 and iPhone 14 Pro Max.
+- A large amount of testing was done to ensure that all pages were linking correctly.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
 ### W3C
 
-I have fully tested all three **HTML** pages and the one **CSS** stylesheet within W3C's validators. No fails found and all warnings were fully resolved and have now **passed all checks**.
+Within W3C's validators. I have fully tested the one **CSS** stylesheet via the **Direct Input** method. I have also fully tested all three **HTML** pages via the **URI Input** method. No fails were found and all warnings were fully resolved and have now **passed all checks**.
 
 ![W3C CSS Validation](docs/w3c-css-validation-img.png)
+
+[https://jigsaw.w3.org/css-validator/]
+
 ![W3C HTML Validation](docs/w3c-html-validation-img.png)
+
+[https://validator.w3.org]
 
 ### Accessibility and Performance
 
 ![PageSpeed Insight](docs/test-pagespeed.png)
 
 [https://pagespeed.web.dev]
+
+![Wave Web Accessibility Evaluation]
+
+[https://wave.webaim.org]
 
 ### User Stories Tested
 
