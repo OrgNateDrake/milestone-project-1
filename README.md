@@ -141,7 +141,7 @@ These user stories capture the expectations and desires of both current pet owne
 ### Hex Colors and Fonts
 
 **Main:** #146768 *Darker Marine Blue*
-**Secondary:** #198182 *Marine Blue*
+**Secondary:** #1F9FA0 *Marine Blue*
 
 **Font:** *Montserrat*
 
