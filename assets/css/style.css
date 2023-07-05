@@ -2,7 +2,7 @@
 
 /*-----------------------------------------------Colors------------------------*/
 
-/* (Main: #1E9B9C) (Secondary: #22afb0) & #fafafa */
+/* (Main: #146768) (Secondary: #198182) & #fafafa */
 
 /*-----------------------------------------------Header------------------------*/
 
@@ -13,7 +13,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #1E9B9C;
+    color: #146768;
 }
 
 @media only screen and (max-width : 375px) {
@@ -40,11 +40,11 @@
     font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #1E9B9C;
+    color: #146768;
 }
 
 .menu:hover {
-    color: #22afb0;
+    color: #146768;
 }
 
 /*-----------------------------------------------Callout--------------------------*/
@@ -95,14 +95,15 @@
 #button-main button {
     font-size: 25px;
     color: #fff;
-    border-color: #1E9B9C;
+    background-color: #146768;
+    border-color: #146768;
     text-shadow: 0 0 1px black;
 
 }
 
 #button-main button:hover {
-    background-color: #1E9B9C;
-    border-color: #1E9B9C;
+    background-color: #146768;
+    border-color: #146768;
     color: white;
     text-shadow: none;
 }
@@ -151,24 +152,24 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-size: larger;
-    color: #1E9B9C;
+    color: #146768;
 }
 
 .modal-label {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     font-size: larger;
-    color: #1E9B9C;
+    color: #146768;
 }
 
 #modal-button {
-    border-color: #1E9B9C;
+    border-color: #146768;
 
 }
 
 #modal-button:hover {
-    background-color: #1E9B9C;
-    border-color: #1E9B9C;
+    background-color: #146768;
+    border-color: #146768;
     color: #fff;
     text-shadow: none;
 }
@@ -182,7 +183,7 @@
 .feedback-container {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    color: #1E9B9C;
+    color: #146768;
 }
 
 .blockquote-footer {
@@ -191,7 +192,7 @@
 }
 
 #feedback-img {
-    border: 2px solid #1E9B9C;
+    border: 2px solid #146768;
     border-radius: 50% 0 50% 0;
 }
 
@@ -201,27 +202,27 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     font-size: 25px;
-    color: #1E9B9C;
+    color: #146768;
     max-width: 80vw
 }
 
 .lg-img {
     max-height: 700px;
-    border: 4px solid #1E9B9C;
+    border: 4px solid #146768;
     margin-bottom: 10px;
     border-radius: 10px;
 }
 
 #lg-img-t-c {
     max-height: 700px;
-    border: 4px solid #1E9B9C;
+    border: 4px solid #146768;
     margin-bottom: 10px;
     border-radius: 100px 10px 10px 10px;
 }
 
 .sm-img {
     max-height: 700px;
-    border: 4px solid #1E9B9C;
+    border: 4px solid #146768;
     margin-bottom: 10px;
     margin-left: 10px;
     border-radius: 10px;
@@ -229,7 +230,7 @@
 
 #sm-img-b-c {
     max-height: 700px;
-    border: 4px solid #1E9B9C;
+    border: 4px solid #146768;
     margin-bottom: 10px;
     margin-left: 10px;
     border-radius: 10px 10px 100px 10px;
@@ -237,7 +238,7 @@
 
 #middle-lg-img {
     max-height: 700px;
-    border: 4px solid #1E9B9C;
+    border: 4px solid #146768;
     margin-left: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -245,7 +246,7 @@
 
 #middle-sm-img {
     max-height: 700px;
-    border: 4px solid #1E9B9C;
+    border: 4px solid #146768;
     margin-bottom: 10px;
     border-radius: 10px;
 }
@@ -256,7 +257,7 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     color: #fff;
-    background-color: #1E9B9C;
+    background-color: #146768;
 }
 
 #footer-about-label {
@@ -284,7 +285,7 @@
     font-size: 15px;
     line-height: 7.5px;
     text-align: center;
-    color: #1E9B9C;
+    color: #146768;
     background: #fff;
     transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
@@ -293,5 +294,5 @@
 }
 
 .social-links li a i:hover {
-    background: #22afb0;
+    background: #198182;
 }
