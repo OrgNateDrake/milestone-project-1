@@ -140,8 +140,8 @@ These user stories capture the expectations and desires of both current pet owne
 
 ### Hex Colors and Fonts
 
-**Main:** #22afb0 *Light Marine Blue*
-**Secondary:** #36d7d8 *Dark Marine Blue*
+**Main:** #1E9B9C *Darker Marine Blue*
+**Secondary:** #22afb0 *Marine Blue*
 
 **Font:** *Montserrat*
 
@@ -185,7 +185,7 @@ I have fully tested all three **HTML** pages and the one **CSS** stylesheet with
 
 ### Accessibility and Performance
 
-![PageSpeed Insight](docs/test-pagespeed.png))
+![PageSpeed Insight](docs/test-pagespeed.png)
 
 [https://pagespeed.web.dev]
 
@@ -215,8 +215,8 @@ I have fully tested all three **HTML** pages and the one **CSS** stylesheet with
 
 **These responses reflect the positive impressions of the current pet owners who have visited the website. They express enthusiasm for the photographer's expertise, the inspiration drawn from the gallery, the ease of finding information and contacting the photographer, and the reassurance gained from testimonials and the photographer's experience.**
 
-![Screenshots](images/user-stories-contact.png)
-![Screenshots](images/user-stories-portfolio.png)
+![Screenshots](assets/images/user-stories-contact.png)
+![Screenshots](assets/images/user-stories-portfolio.png)
 
 #### New Pet Owners
 
@@ -242,9 +242,9 @@ I have fully tested all three **HTML** pages and the one **CSS** stylesheet with
 
   **These responses reflect the positive experiences and impressions of new pet owners who have visited the website. They highlight the excitement of discovering a reliable pet photographer, the inspiration drawn from the gallery, the ease of finding information about packages and pricing, the confidence gained from the photographer's background and testimonials, and the convenience of contacting the photographer.**
 
-![Screenshots](images/user-stories-feedback.png)
-![Screenshots](images/user-stories-contact.png)
-![Screenshots](images/user-stories-portfolio.png)
+![Screenshots](assets/images/user-stories-feedback.png)
+![Screenshots](assets/images/user-stories-contact.png)
+![Screenshots](assets/images/user-stories-portfolio.png)
 
 ## Bugs
 
