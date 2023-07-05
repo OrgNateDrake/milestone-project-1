@@ -1,6 +1,6 @@
 # Family Pet Photography
 
-[https://orgnatedrake.github.io/milestone-project-1/] (www.orgnatedrake.github.io/milestone-project-1)
+[https://orgnatedrake.github.io/milestone-project-1/]
 
 This is the README file for a three-page website, for a family pet photography business. The website consists of three main pages: Home, Gallery, and Contact Me.
 
@@ -87,6 +87,16 @@ git clone [https://github.com/OrgNateDrake/milestone-project-1.git]
 
 You can view the live site through **GitHub Pages**, using the following link; [https://orgnatedrake.github.io/milestone-project-1/].
 
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
 ## User Experience UX
 
 ### User Stories
@@ -169,13 +179,16 @@ These user stories capture the expectations and desires of both current pet owne
 
 I have fully tested all three **HTML** pages and the one **CSS** stylesheet within W3C's validators. No fails found and all warnings were fully resolved and have now **passed all checks**.
 
+![W3C CSS Validation](docs/w3c-css-validation-img.png)
+![W3C HTML Validation](docs/w3c-html-validation-img.png)
+
 ### JSLint
 
 I have fully tested all three **HTML** pages and the one **CSS** stylesheet within JSLint's validators. **passed all checks**.
 
 ### Accessibility and Performance
 
-![PageSpeed Insight](docs/pagespeed-insight.png)
+![PageSpeed Insight](docs/pagespeed-insight-img.png)
 
 [https://pagespeed.web.dev]
 
@@ -205,6 +218,9 @@ I have fully tested all three **HTML** pages and the one **CSS** stylesheet with
 
 **These responses reflect the positive impressions of the current pet owners who have visited the website. They express enthusiasm for the photographer's expertise, the inspiration drawn from the gallery, the ease of finding information and contacting the photographer, and the reassurance gained from testimonials and the photographer's experience.**
 
+![Screenshots](images/user-stories-contact.png)
+![Screenshots](images/user-stories-portfolio.png)
+
 #### New Pet Owners
 
 1. I want to discover a reliable and professional pet photographer who can capture precious moments with my new furry companion.
@@ -228,6 +244,10 @@ I have fully tested all three **HTML** pages and the one **CSS** stylesheet with
   *Response:* Contacting the photographer is a breeze! The user-friendly contact form and readily available contact details make it easy for me to inquire about the services, ask questions, and schedule a photo session for my new pet. It's reassuring to have such convenient options.
 
   **These responses reflect the positive experiences and impressions of new pet owners who have visited the website. They highlight the excitement of discovering a reliable pet photographer, the inspiration drawn from the gallery, the ease of finding information about packages and pricing, the confidence gained from the photographer's background and testimonials, and the convenience of contacting the photographer.**
+
+![Screenshots](images/user-stories-feedback.png)
+![Screenshots](images/user-stories-contact.png)
+![Screenshots](images/user-stories-portfolio.png)
 
 ## Bugs
 
