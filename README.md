@@ -195,11 +195,16 @@ Within W3C's validators. I have fully tested the one **CSS** stylesheet via the 
 
 ### Accessibility and Performance
 
+![I Am Responsive](docs/iamresponsive.png)
+
 ![PageSpeed Insight](docs/test-pagespeed.png)
 
 [https://pagespeed.web.dev]
 
-![Wave Web Accessibility Evaluation]
+I have also tested this site with **Wave** for accessibility and performance. Major contrast issues were corrected and the 8 remaining contrast issues were thought not to be of concern.
+
+![Wave Contrast issues](docs/wave-contrast-img1.png)
+![Wave Contrast issues](docs/wave-contrast-img2.png)
 
 [https://wave.webaim.org]
 
