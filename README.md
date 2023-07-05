@@ -34,7 +34,6 @@ This is the README file for a three-page website, for a family pet photography b
   - [Modal](#modal)
 - [Testing](#testing)
   - [W3C](#w3c)
-  - [JSLint](#jslint)
   - [Accessibility](#accessibility)
   - [User Stories Tested](#user-stories-tested)
     - [Current Pet Owners](#current-pet-owners)
@@ -85,7 +84,9 @@ git clone [https://github.com/OrgNateDrake/milestone-project-1.git]
 
 ### Deployment
 
-You can view the live site through **GitHub Pages**, using the following link; [https://orgnatedrake.github.io/milestone-project-1/].
+You can view the live site through **GitHub Pages**, using the following link; 
+
+[https://orgnatedrake.github.io/milestone-project-1/].
 
 The project was deployed to GitHub Pages using the following steps...
 
@@ -182,13 +183,9 @@ I have fully tested all three **HTML** pages and the one **CSS** stylesheet with
 ![W3C CSS Validation](docs/w3c-css-validation-img.png)
 ![W3C HTML Validation](docs/w3c-html-validation-img.png)
 
-### JSLint
-
-I have fully tested all three **HTML** pages and the one **CSS** stylesheet within JSLint's validators. **passed all checks**.
-
 ### Accessibility and Performance
 
-![PageSpeed Insight](docs/pagespeed-insight-img.png)
+![PageSpeed Insight](docs/test-pagespeed.png))
 
 [https://pagespeed.web.dev]
 
