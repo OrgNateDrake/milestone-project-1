@@ -1,12 +1,12 @@
 # Family Pet Photography
 
-[https://orgnatedrake.github.io/milestone-project-1/]
+[GitHub](https://orgnatedrake.github.io/milestone-project-1/)
 
 This is the README file for a three-page website, for a family pet photography business. The website consists of three main pages: Home, Gallery, and Contact Me.
 
 ![I Am Responsive](docs/iamresponsive.png)
 
-[https://ui.dev/amiresponsive?url=https://orgnatedrake.github.io/milestone-project-1/]
+[Am I Responsive](https://ui.dev/amiresponsive?url=https://orgnatedrake.github.io/milestone-project-1/)
 
 ## Table of Contents
 
@@ -70,9 +70,9 @@ To get a copy of this project up and running on your local machine, follow these
 
 ### Installation
 
-1. Clone the repository:
+1. Clone my repository:
 
-git clone [https://github.com/OrgNateDrake/milestone-project-1.git]
+[Git Clone](https://github.com/OrgNateDrake/milestone-project-1.git)
 
 2. Open the project in your preferred text editor or IDE.
 
@@ -86,17 +86,16 @@ git clone [https://github.com/OrgNateDrake/milestone-project-1.git]
 
 You can view the live site through **GitHub Pages**, using the following link; 
 
-[https://orgnatedrake.github.io/milestone-project-1/]
+[Live Site](https://orgnatedrake.github.io/milestone-project-1/)
 
 The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published [site link](https://github.com) in the "GitHub Pages" section.
 
 ## User Experience UX
 
@@ -187,11 +186,11 @@ Within W3C's validators. I have fully tested the one **CSS** stylesheet via the 
 
 ![W3C CSS Validation](docs/w3c-css-validation-img.png)
 
-[https://jigsaw.w3.org/css-validator/]
+[CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ![W3C HTML Validation](docs/w3c-html-validation-img.png)
 
-[https://validator.w3.org]
+[HTML Validator](https://validator.w3.org)
 
 ### Accessibility and Performance
 
@@ -199,14 +198,14 @@ Within W3C's validators. I have fully tested the one **CSS** stylesheet via the 
 
 ![PageSpeed Insight](docs/test-pagespeed.png)
 
-[https://pagespeed.web.dev]
+[PageSpeed](https://pagespeed.web.dev)
 
 I have also tested this site with **Wave** for accessibility and performance. Major contrast issues were corrected and the 8 remaining contrast issues were thought not to be of concern.
 
 ![Wave Contrast issues](docs/wave-contrast-img1.png)
 ![Wave Contrast issues](docs/wave-contrast-img2.png)
 
-[https://wave.webaim.org]
+[Wave](https://wave.webaim.org)
 
 ### User Stories Tested
 
@@ -288,27 +287,27 @@ Apart from what has been attributed below. All code within this project was prog
 3. Buttons.
 4. Grids and responsive behaviours.
 
-[https://getbootstrap.com]
+[BootStrap](https://getbootstrap.com)
 
-**Font Awesome** was used to provide icons for the *Home*, *Gallery* and *Contact Me* pages. Also icons were used for links to each social network. [https://fontawesome.com]
+**Font Awesome** was used to provide icons for the *Home*, *Gallery* and *Contact Me* pages. Also icons were used for links to each social network. [Font Awesome](https://fontawesome.com)
 
-**Google Fonts** was used for the main font used within this project. [https://fonts.google.com]
+**Google Fonts** was used for the main font used within this project. [Google Fonts](https://fonts.google.com)
 
 1. Montserrat.
 
-**Popper** extension was used within the **Bootstrap** modal. [https://popper.js.org]
+**Popper** extension was used within the **Bootstrap** modal. [Popper](https://popper.js.org)
 
 **ShutterStock** was utilised for all licensed photography used within the *Gallery* *Logo* and *Background Images*. 
-[https://www.shutterstock.com]
+[ShutterStock](https://www.shutterstock.com)
 
-**Git** was used for version control. [https://github.com]
+**Git** was used for version control. [GitHub](https://github.com)
 
-**GitHub** was used to publish website through *Pages*. [https://github.com]
+**GitHub** was used to publish website through *Pages*. [GitHub](https://github.com)
 
 **VSC** Visual Studio Code software was used to develop the website `Integrated Development Environment *IDE*`. 
-[https://code.visualstudio.com]
+[VS Code](https://code.visualstudio.com)
 
-**Lucid** was used to create the wireframes. [https://www.lucidchart.com]
+**Lucid** was used to create the wireframes. [LucidChart](https://www.lucidchart.com)
 
 ## Contributing and Maintenance
 
