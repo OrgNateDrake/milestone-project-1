@@ -2,7 +2,7 @@
 
 /*-----------------------------------------------Colors------------------------*/
 
-/* (Main: #146768) (Secondary: #1F9FA0) */
+/* (Main: ##00a6a6) (Secondary: #1F9FA0) */
 
 /*-----------------------------------------------Header------------------------*/
 
@@ -13,7 +13,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #146768;
+    color: #00a6a6;
 }
 
 @media only screen and (max-width : 375px) {
@@ -40,7 +40,7 @@
     font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #146768;
+    color: #00a6a6;
 }
 
 .menu:hover {
@@ -95,8 +95,8 @@
 #button-main button {
     font-size: 25px;
     color: #fff;
-    background-color: #146768;
-    border-color: #146768;
+    background-color: #00a6a6;
+    border-color: #00a6a6;
     text-shadow: 0 0 1px black;
 
 }
@@ -150,24 +150,24 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-size: larger;
-    color: #146768;
+    color: #00a6a6;
 }
 
 .modal-label {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     font-size: larger;
-    color: #146768;
+    color: #00a6a6;
 }
 
 #modal-button {
-    border-color: #146768;
-    color: #146768;
+    border-color: #00a6a6;
+    color: #00a6a6;
 }
 
 #modal-button:hover {
-    background-color: #146768;
-    border-color: #146768;
+    background-color: #00a6a6;
+    border-color: #00a6a6;
     color: #ffffff;
     text-shadow: none;
 }
@@ -181,7 +181,7 @@
 .feedback-container {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
-    color: #146768;
+    color: #00a6a6;
 }
 
 .blockquote-footer {
@@ -191,7 +191,7 @@
 }
 
 #feedback-img {
-    border: 2px solid #146768;
+    border: 2px solid #00a6a6;
     border-radius: 50% 0 50% 0;
 }
 
@@ -201,27 +201,27 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     font-size: 25px;
-    color: #146768;
+    color: #00a6a6;
     max-width: 80vw
 }
 
 .lg-img {
     max-height: 700px;
-    border: 4px solid #146768;
+    border: 4px solid #00a6a6;
     margin-bottom: 10px;
     border-radius: 10px;
 }
 
 #lg-img-t-c {
     max-height: 700px;
-    border: 4px solid #146768;
+    border: 4px solid #00a6a6;
     margin-bottom: 10px;
     border-radius: 100px 10px 10px 10px;
 }
 
 .sm-img {
     max-height: 700px;
-    border: 4px solid #146768;
+    border: 4px solid #00a6a6;
     margin-bottom: 10px;
     margin-left: 10px;
     border-radius: 10px;
@@ -229,7 +229,7 @@
 
 #sm-img-b-c {
     max-height: 700px;
-    border: 4px solid #146768;
+    border: 4px solid #00a6a6;
     margin-bottom: 10px;
     margin-left: 10px;
     border-radius: 10px 10px 100px 10px;
@@ -237,7 +237,7 @@
 
 #middle-lg-img {
     max-height: 700px;
-    border: 4px solid #146768;
+    border: 4px solid #00a6a6;
     margin-left: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -245,7 +245,7 @@
 
 #middle-sm-img {
     max-height: 700px;
-    border: 4px solid #146768;
+    border: 4px solid #00a6a6;
     margin-bottom: 10px;
     border-radius: 10px;
 }
@@ -256,7 +256,7 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     color: #fff;
-    background-color: #146768;
+    background-color: #00a6a6;
 }
 
 #footer-about-label {
@@ -284,7 +284,7 @@
     font-size: 15px;
     line-height: 7.5px;
     text-align: center;
-    color: #146768;
+    color: #00a6a6;
     background: #fff;
     transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
